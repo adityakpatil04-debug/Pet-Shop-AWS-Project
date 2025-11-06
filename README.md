@@ -47,7 +47,9 @@ Find the S3 Website Endpoint in bucket properties.
 
 Example:
 
-http://pet-shop-bucket05.s3-website.ap-south-1.amazonaws.com image
+https://s3.ap-south-1.amazonaws.com/pet-shop.bucket/index.html
+<img width="1920" height="1020" alt="Screenshot 2025-11-06 211535" src="https://github.com/user-attachments/assets/75b777e3-aa4c-44a6-9705-bf1a7672c5d7" />
+
 
 (Optional) Add CloudFront for HTTPS + CDN Create CloudFront distribution.
 
