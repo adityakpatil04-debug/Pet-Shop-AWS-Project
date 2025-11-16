@@ -1,62 +1,85 @@
-# Pet-Shop-AWS-Project
-Hosting website on AWS. Beginner level project.
+🐾 PetShop – Static Website Hosted on AWS S3
 
-🌐 AWS Static Website Hosting Project
-📌 Project Overview
+A simple and responsive Pet Shop static website built using HTML, CSS, and JavaScript, and hosted using AWS S3 Static Website Hosting. This project demonstrates cloud hosting fundamentals and modern front-end development.
 
-This project demonstrates how to host a static website (HTML, CSS, JS files) using Amazon Web Services (AWS).
-By leveraging AWS services like S3 (Simple Storage Service) and CloudFront, you can build a scalable, secure, and cost-effective hosting solution.
-
-It is an ideal beginner project for learning AWS cloud fundamentals and understanding how modern web hosting works without traditional servers.
-
-🛠 Services Used
-
-Amazon S3 → Stores and serves static website files.
-IAM → Create user with permission
-AWS CLI → Command-line tool for uploading and managing files easily.
 🚀 Features
 
-Host HTML, CSS, JS, and media files.
-Publicly accessible website endpoint via AWS.
-Low-cost and serverless (uses AWS Free Tier).
+Fully static website (HTML/CSS/JS)
+
+Mobile-responsive UI
+
+Clean layout for showcasing pet products/services
+
+Hosted on AWS S3 Website Hosting
+
+Public URL accessible globally
+
+Version-controlled using GitHub
+
+🏗️ Architecture Overview
+Local Code → GitHub Repository → AWS S3 Bucket (Static Hosting) → Public Website URL
+
+☁️ AWS S3 Hosting Setup (Summary)
+
+Created an S3 bucket with public access enabled for website hosting.
+
+Uploaded all project files (index.html, style.css, images, scripts).
+
+Enabled Static Website Hosting in S3 properties.
+
+Set index document → index.html.
+
+Applied bucket policy to allow public read access.
+
+Verified website URL provided by S3.
+
 📂 Project Structure
+petshop/
+│── index.html
+│── style.css
+│── script.js
+│── images/
+│── README.md
 
-pet-shop/
--- index.html # Main homepage -- style.css # Stylesheet -- script.js # JavaScript
-
-🔑 Steps to Recreate
-
-Create an S3 Bucket
-
-Must be a unique name (e.g., my-aws-static-site).
-Enable Static Website Hosting in Properties.
-Upload Files
-
-Upload index.html, CSS, and JS to the bucket.
-Ensure permissions allow public read access.
-Set Bucket Policy
-
-Public Access → Off
-Under the bucket → Properties → Static web hosting → Enable → index.html
-Dashboard → Go into the bucket → Permission → Off
-Permission → Edit object ownership → Enabled
-Objects → Select folder/file → Actions → Make public using ACL
-💻 Access Website
-
-Find the S3 Website Endpoint in bucket properties.
-
-Example:
-
+🔗 Live Demo (AWS S3 URL)
 https://s3.ap-south-1.amazonaws.com/pet-shop.bucket/index.html
 <img width="1920" height="1020" alt="Screenshot 2025-11-06 211535" src="https://github.com/user-attachments/assets/75b777e3-aa4c-44a6-9705-bf1a7672c5d7" />
 
+(Replace with actual link)
 
-(Optional) Add CloudFront for HTTPS + CDN Create CloudFront distribution.
+🛠️ Technologies Used
 
-Use S3 bucket as origin. Attach an SSL certificate via AWS Certificate Manager.
+HTML5
 
-📈 Future Enhancements
+CSS3
 
-Automate deployment using GitHub Actions.
-Add custom domain with Route 53.
-Integrate CI/CD pipeline for auto-updates.
+JavaScript
+
+Amazon S3 (Static Website Hosting)
+
+Git & GitHub
+
+📦 How to Run Locally
+# Clone the project
+git clone https://github.com/your-username/petshop.git
+
+# Navigate into folder
+cd petshop
+
+# Open the website
+open index.html
+
+🌟 Future Improvements
+
+Add a products page
+
+Add backend API for pets listing
+
+Add contact form with AWS SES
+
+Add animations & better UI
+
+👤 Author
+
+Aditya Patil
+Cloud & Web Development Enthusiast
