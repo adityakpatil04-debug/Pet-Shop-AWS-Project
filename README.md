@@ -45,8 +45,6 @@ petshop/
 https://s3.ap-south-1.amazonaws.com/pet-shop.bucket/index.html
 <img width="1920" height="1020" alt="Screenshot 2025-11-06 211535" src="https://github.com/user-attachments/assets/75b777e3-aa4c-44a6-9705-bf1a7672c5d7" />
 
-(Replace with actual link)
-
 🛠️ Technologies Used
 
 HTML5
@@ -59,15 +57,6 @@ Amazon S3 (Static Website Hosting)
 
 Git & GitHub
 
-📦 How to Run Locally
-# Clone the project
-git clone https://github.com/your-username/petshop.git
-
-# Navigate into folder
-cd petshop
-
-# Open the website
-open index.html
 
 🌟 Future Improvements
 
